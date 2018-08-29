@@ -1,0 +1,22 @@
+a="""TYPE=03
+&VERSION=1.0
+&MCHNTCD=0002900F0022256
+&USERID=1236985478
+&RESPONSECODE=0000
+&RESPONSEMSG=成功
+&MCHNTORDERID=14909408631788350725
+&ORDERID=000033454458
+&AMT=200
+&BANKCARD=6226090217436936
+&PROTOCOLNO=14907763938986631631
+&SIGN =1ceeb01310f53356100d38d409a7f640"""
+
+l=a.split('&')
+b=list()
+for i in l:
+    b.append(i.split('\n')[0])
+print(b)
+c=dict()
+for i in b:
+    c[i.split('=')[0]]=i.split('=')[1]
+print(c)

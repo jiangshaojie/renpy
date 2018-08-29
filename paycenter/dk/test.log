@@ -1,0 +1,151 @@
+2018-08-27 16:35:43,692 INFO    : start..............
+2018-08-27 16:38:16,044 INFO    : start..............
+2018-08-27 16:39:25,040 INFO    : start..............
+2018-08-27 16:41:22,155 INFO    : start..............
+2018-08-27 16:42:53,778 INFO    : preorder result: <Response [200]>
+2018-08-27 16:57:33,700 INFO    : start..............
+2018-08-27 16:57:34,186 INFO    : preorder result: <Response [200]>
+2018-08-27 17:01:35,197 INFO    : start..............
+2018-08-27 17:01:47,643 INFO    : preorder result: <Response [200]>
+2018-08-27 17:01:57,191 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180827170141484000004787429058"},"total":0}
+2018-08-27 17:07:25,210 INFO    : start..............
+2018-08-27 17:07:33,026 INFO    : preorder result: <Response [200]>
+2018-08-27 17:07:33,959 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180827170732262000000443630361"},"total":0}
+2018-08-27 17:07:55,680 INFO    : preorder result: <Response [200]>
+2018-08-27 17:08:00,918 INFO    : placeorder success
+2018-08-27 18:01:58,138 INFO    : start..............
+2018-08-27 18:01:58,487 INFO    : preorder result: <Response [200]>
+2018-08-27 18:01:58,487 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180827180158445000001203452765"},"total":0}
+2018-08-27 18:01:58,487 INFO    : preorder orderid: 1535364118466
+2018-08-27 18:01:58,488 INFO    : preorder orderNo: 20180827180158445000001203452765
+2018-08-27 18:01:58,546 INFO    : preorder result: <Response [200]>
+2018-08-27 18:01:58,546 INFO    : placeorder success
+2018-08-27 19:27:54,500 INFO    : start..............
+2018-08-27 19:27:54,860 INFO    : preorder result: <Response [200]>
+2018-08-27 19:27:54,860 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180827192754844000008308731109"},"total":0}
+2018-08-27 19:27:54,860 INFO    : preorder orderid: 1535369274823
+2018-08-27 19:27:54,860 INFO    : preorder orderNo: 20180827192754844000008308731109
+2018-08-27 19:27:54,907 INFO    : preorder result: <Response [200]>
+2018-08-27 19:27:54,907 INFO    : placeorder success
+2018-08-27 19:29:32,239 INFO    : start..............
+2018-08-27 19:29:32,559 INFO    : preorder result: <Response [200]>
+2018-08-27 19:29:32,559 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180827192932532000009278475249"},"total":0}
+2018-08-27 19:29:32,559 INFO    : preorder orderid: 153536937227
+2018-08-27 19:29:32,559 INFO    : preorder orderNo: 20180827192932532000009278475249
+2018-08-27 19:29:32,607 INFO    : preorder result: <Response [200]>
+2018-08-27 19:29:32,607 INFO    : placeorder success
+2018-08-28 10:20:28,654 INFO    : start..............
+2018-08-28 10:20:29,033 INFO    : preorder result: <Response [200]>
+2018-08-28 10:20:29,034 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828102028996000009901784965"},"total":0}
+2018-08-28 10:20:29,034 INFO    : preorder orderid: 1535422828666
+2018-08-28 10:20:29,034 INFO    : preorder orderNo: 20180828102028996000009901784965
+2018-08-28 10:20:29,116 INFO    : preorder result: <Response [200]>
+2018-08-28 10:20:29,116 INFO    : placeorder success
+2018-08-28 10:25:02,259 INFO    : start..............
+2018-08-28 10:25:02,929 INFO    : preorder result: <Response [200]>
+2018-08-28 10:25:02,929 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828102502889000002603168121"},"total":0}
+2018-08-28 10:25:02,929 INFO    : preorder orderid: 1535423102635
+2018-08-28 10:25:02,930 INFO    : preorder orderNo: 20180828102502889000002603168121
+2018-08-28 10:25:02,981 INFO    : preorder result: <Response [200]>
+2018-08-28 10:25:02,981 INFO    : placeorder success
+2018-08-28 11:28:25,302 INFO    : start..............
+2018-08-28 11:28:25,842 INFO    : preorder result: <Response [200]>
+2018-08-28 11:28:25,842 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828112825734000002836127126"},"total":0}
+2018-08-28 11:28:25,842 INFO    : preorder orderid: 1535426905774
+2018-08-28 11:28:25,843 INFO    : preorder orderNo: 20180828112825734000002836127126
+2018-08-28 11:28:25,918 INFO    : preorder result: <Response [200]>
+2018-08-28 11:28:25,918 INFO    : placeorder success
+2018-08-28 14:37:11,353 INFO    : start..............
+2018-08-28 14:37:13,011 INFO    : preorder result: <Response [200]>
+2018-08-28 14:37:13,011 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828143712525000008679814500"},"total":0}
+2018-08-28 14:37:13,011 INFO    : preorder orderid: 1535438231949
+2018-08-28 14:37:13,011 INFO    : preorder orderNo: 20180828143712525000008679814500
+2018-08-28 14:37:14,008 INFO    : preorder result: <Response [200]>
+2018-08-28 14:37:14,008 INFO    : placeorder success
+2018-08-28 16:06:29,991 INFO    : start..............
+2018-08-28 16:06:30,339 INFO    : preorder result: <Response [200]>
+2018-08-28 16:06:30,339 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828160630356000005702821595"},"total":0}
+2018-08-28 16:06:30,339 INFO    : preorder orderid: 1535443589108
+2018-08-28 16:06:30,339 INFO    : preorder orderNo: 20180828160630356000005702821595
+2018-08-28 16:06:30,381 INFO    : preorder result: <Response [200]>
+2018-08-28 16:06:30,381 INFO    : placeorder success
+2018-08-28 17:04:31,395 INFO    : start..............
+2018-08-28 17:04:31,905 INFO    : preorder result: <Response [200]>
+2018-08-28 17:04:31,906 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828170431902000009922230654"},"total":0}
+2018-08-28 17:04:31,906 INFO    : preorder orderid: 1535447071396
+2018-08-28 17:04:31,906 INFO    : preorder orderNo: 20180828170431902000009922230654
+2018-08-28 17:04:31,954 INFO    : preorder result: <Response [200]>
+2018-08-28 17:04:31,954 INFO    : placeorder success
+2018-08-28 17:07:34,816 INFO    : start..............
+2018-08-28 17:07:35,163 INFO    : preorder result: <Response [200]>
+2018-08-28 17:07:35,163 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828170735158000008746061719"},"total":0}
+2018-08-28 17:07:35,163 INFO    : preorder orderid: 1535447254619
+2018-08-28 17:07:35,164 INFO    : preorder orderNo: 20180828170735158000008746061719
+2018-08-28 17:07:35,208 INFO    : preorder result: <Response [200]>
+2018-08-28 17:07:35,208 INFO    : placeorder success
+2018-08-28 17:17:59,727 INFO    : start..............
+2018-08-28 17:18:00,084 INFO    : preorder result: <Response [200]>
+2018-08-28 17:18:00,084 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828171800078000000093918373"},"total":0}
+2018-08-28 17:18:00,084 INFO    : preorder orderid: 1535447879921
+2018-08-28 17:18:00,085 INFO    : preorder orderNo: 20180828171800078000000093918373
+2018-08-28 17:18:00,142 INFO    : preorder result: <Response [200]>
+2018-08-28 17:18:00,142 INFO    : placeorder success
+2018-08-28 17:20:30,006 INFO    : start..............
+2018-08-28 17:20:30,496 INFO    : preorder result: <Response [200]>
+2018-08-28 17:20:30,496 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828172030473000009410843046"},"total":0}
+2018-08-28 17:20:30,497 INFO    : preorder orderid: 153544803090
+2018-08-28 17:20:30,497 INFO    : preorder orderNo: 20180828172030473000009410843046
+2018-08-28 17:20:30,552 INFO    : preorder result: <Response [200]>
+2018-08-28 17:20:30,552 INFO    : placeorder success
+2018-08-28 17:22:50,240 INFO    : start..............
+2018-08-28 17:22:50,555 INFO    : preorder result: <Response [200]>
+2018-08-28 17:22:50,556 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828172250559000000986899892"},"total":0}
+2018-08-28 17:22:50,556 INFO    : preorder orderid: 153544817091
+2018-08-28 17:22:50,556 INFO    : preorder orderNo: 20180828172250559000000986899892
+2018-08-28 17:22:50,602 INFO    : preorder result: <Response [200]>
+2018-08-28 17:22:50,602 INFO    : placeorder success
+2018-08-28 17:26:34,767 INFO    : start..............
+2018-08-28 17:26:35,280 INFO    : preorder result: <Response [200]>
+2018-08-28 17:26:35,280 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828172635275000002920515814"},"total":0}
+2018-08-28 17:26:35,280 INFO    : preorder orderid: 1535448394217
+2018-08-28 17:26:35,280 INFO    : preorder orderNo: 20180828172635275000002920515814
+2018-08-28 17:26:35,334 INFO    : preorder result: <Response [200]>
+2018-08-28 17:26:35,334 INFO    : placeorder success
+2018-08-28 17:27:27,336 INFO    : start..............
+2018-08-28 17:27:27,608 INFO    : preorder result: <Response [200]>
+2018-08-28 17:27:27,608 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180828172727609000004090179039"},"total":0}
+2018-08-28 17:27:27,608 INFO    : preorder orderid: 1535448447498
+2018-08-28 17:27:27,609 INFO    : preorder orderNo: 20180828172727609000004090179039
+2018-08-28 17:27:27,667 INFO    : preorder result: <Response [200]>
+2018-08-28 17:27:27,667 INFO    : placeorder success
+2018-08-29 11:18:58,278 INFO    : start..............
+2018-08-29 11:18:58,391 INFO    : preorder result: <Response [200]>
+2018-08-29 11:18:58,391 INFO    : preorder result: {"status":2,"err_msg":"没有匹配的签约卡","data":null,"total":0}
+2018-08-29 11:41:44,748 INFO    : start..............
+2018-08-29 11:41:45,093 INFO    : preorder result: <Response [200]>
+2018-08-29 11:41:45,093 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180829114145068000004500321244"},"total":0}
+2018-08-29 11:41:45,094 INFO    : preorder orderid: 1535514104490
+2018-08-29 11:41:45,094 INFO    : preorder orderNo: 20180829114145068000004500321244
+2018-08-29 11:41:45,152 INFO    : preorder result: <Response [200]>
+2018-08-29 11:41:45,152 INFO    : placeorder success
+2018-08-29 11:45:42,272 INFO    : start..............
+2018-08-29 11:45:42,563 INFO    : preorder result: <Response [200]>
+2018-08-29 11:45:42,563 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180829114542545000009759467584"},"total":0}
+2018-08-29 11:45:42,563 INFO    : preorder orderid: 1535514342703
+2018-08-29 11:45:42,563 INFO    : preorder orderNo: 20180829114542545000009759467584
+2018-08-29 11:45:42,624 INFO    : preorder result: <Response [200]>
+2018-08-29 11:45:42,624 INFO    : placeorder success
+2018-08-29 14:12:05,411 INFO    : start..............
+2018-08-29 14:12:06,571 INFO    : preorder result: <Response [200]>
+2018-08-29 14:12:06,571 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180829141206416000001101216974"},"total":0}
+2018-08-29 14:12:06,572 INFO    : preorder orderid: 1535523125602
+2018-08-29 14:12:06,572 INFO    : preorder orderNo: 20180829141206416000001101216974
+2018-08-29 14:12:06,655 INFO    : preorder result: <Response [200]>
+2018-08-29 14:12:06,656 INFO    : placeorder success
+2018-08-29 14:32:49,995 INFO    : start..............
+2018-08-29 14:32:51,076 INFO    : preorder result: <Response [200]>
+2018-08-29 14:32:51,076 INFO    : preorder result: {"status":0,"err_msg":null,"data":{"orderNo":"20180829143250894000003154554215"},"total":0}
+2018-08-29 14:32:51,076 INFO    : preorder orderid: 1535524369949
+2018-08-29 14:32:51,076 INFO    : preorder orderNo: 20180829143250894000003154554215
+2018-08-29 14:32:51,148 INFO    : preorder result: <Response [200]>
+2018-08-29 14:32:51,148 INFO    : placeorder success
