@@ -1,1 +1,20 @@
-# a={'AMT'=20000,BANKCARD=6214830102054581,MCHNTCD=0002900F0096235,MCHNTORDERID=2018090416432894000000XAWPDTH0N8,ORDERID=000037038847,RESPONSECODE=0000,SIGN=d1a49f159c1e1195013c35c796ceb8e2,TYP=03, VERSION=1.0}
+# -*- coding: utf-8 -*-
+from crypto.decryptoapp import *
+
+import os
+
+BS = AES.block_size
+pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
+unpad = lambda s: s[0:-ord(s[-1])]
+
+key = os.urandom(16)  # the length can be (16, 24, 32)
+# key='xxxxx'#32位或者0-f的数值，对应16字节
+text = 'content==顶你哦，记得回访哦xxxxx'
+
+cipher = AES.new(key, AES.MODE_ECB)  # ECB模式
+
+encrypted = cipher.encrypt(pad(text)).encode('hex')
+print (encrypted)  # will be something like 'f456a6b0e54e35f2711a9fa078a76d16'
+
+decrypted = unpad(cipher.decrypt(encrypted.decode('hex')))
+print (decrypted)  # will be 'to be encrypted'

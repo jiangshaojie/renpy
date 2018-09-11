@@ -3,11 +3,11 @@ import time, random
 import requests
 from log import logger
 import json
-class orders():
+class apreepay():
     url='http://172.20.94.97:8088/'
     preorderbody={
       "ucid":"1032588592796405760",
-      "source":"50000",
+      "source":"50001",
       "bizNo":"1535103028935",
       "amount":20000,
       "notifyUrl":"https://www.baidu.com/",
@@ -44,7 +44,7 @@ class orders():
             logger.info('placeorder success')
 if __name__=='__main__':
     logger.info("start..............")
-    a=orders()
+    a=apreepay()
     a.placeorder()
     # a.preorderbody["ucid"]=1029699755455811584
     # a.preorder()
