@@ -7,10 +7,10 @@ class RDS(object):
         self.db = db
 
     def __conn(self):
-        self.conn = pymysql.connect(host="rdsqv39909q66i6efi0k.mysql.rds.aliyuncs.com",
+        self.conn = pymysql.connect(host="172.18.2.12",
                                     port=3306,
-                                    user="work",
-                                    password="RqQb5YFfOH5ojZ16",
+                                    user="hanxiaobo",
+                                    password="123456",
                                     db=self.db,
                                     charset='utf8',
                                     cursorclass=pymysql.cursors.DictCursor)

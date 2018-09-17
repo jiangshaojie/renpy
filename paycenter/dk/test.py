@@ -1,20 +1,8 @@
 # -*- coding: utf-8 -*-
-from crypto.decryptoapp import *
-
-import os
-
-BS = AES.block_size
-pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
-unpad = lambda s: s[0:-ord(s[-1])]
-
-key = os.urandom(16)  # the length can be (16, 24, 32)
-# key='xxxxx'#32位或者0-f的数值，对应16字节
-text = 'content==顶你哦，记得回访哦xxxxx'
-
-cipher = AES.new(key, AES.MODE_ECB)  # ECB模式
-
-encrypted = cipher.encrypt(pad(text)).encode('hex')
-print (encrypted)  # will be something like 'f456a6b0e54e35f2711a9fa078a76d16'
-
-decrypted = unpad(cipher.decrypt(encrypted.decode('hex')))
-print (decrypted)  # will be 'to be encrypted'
+import hashlib
+# s=json.dumps(self.preorderbody)+self.genencrypt()
+s='amount=20000&bizNo=1536723280704&notifyUrl=https://www.baidu.com/&operatorId=8706&operatorName=8706&shareInfoBiz=[{"shareService":"renrenche","shareAmount":"1"},{"shareService":"zifang_dg","shareAmount":"2"}]&source=50001&ucid=1032588592796405760&key=r2e0nd9r9fe79nf8e8484ec808264538'
+hl = hashlib.md5()
+hl.update(s.encode(encoding='utf-8'))
+# logger.info("验签字符串"+s)
+print(hl.hexdigest())
