@@ -1,16 +1,34 @@
 # -*- coding: utf-8 -*-
-from log import logger
-# import  json
-#
-# data = {"shopName": "创建测试01", "shopShortName": "创建测试01", "serviceType": "检测,维修", "serviceCity": "北京",
-#         "address": "dfsf","gdLongitude": "111", "gdLatitude": "111", "bdLongitude": "111", "bdLatitude": "111",
-#         "contact": "12312312","phone": "13566896536", "status": "NORMAL", "businessId": "FWS-BJ-00010140",
-#         "businessName": "服务商测试01","province": "福建省", "city": "福州", "area": "鼓楼"}
-#
-# # a='{"province":"西藏自治区","city":"日喀则地区","county":"康马县","latitude":"89.68","longitude":"28.57"}'
-# # print(type(a))
-# print(json.dumps(data))
-# print(data.__str__())
-logger.info("dddd")
+# log配置，实现日志自动按日期生成日志文件
+import os,time
+import logging
+# from flask import logging
+def make_dir(make_dir_path):
+    path = make_dir_path.strip()
+    if not os.path.exists(path):
+        os.makedirs(path)
+    return path
 
 
+log_dir_name = "logs"
+log_file_name = 'logger-' + time.strftime('%Y-%m-%d', time.localtime(time.time())) + '.log'
+log_file_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)) + os.sep + log_dir_name
+print(log_file_folder)
+make_dir(log_file_folder)
+# print(make_dir(log_file_folder))
+log_file_str = log_file_folder + os.sep + log_file_name
+print(log_file_str)
+log_level = logging.INFO
+
+handler = logging.FileHandler(log_file_str, encoding='UTF-8')
+handler.setLevel(log_level)
+logging_format = logging.Formatter(
+    '%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(lineno)s - %(message)s')
+handler.setFormatter(logging_format)
+logger=logging.getLogger()
+
+logger.addHandler(handler)
+
+
+logger.info('这是第一个info log')
+print("dsf")

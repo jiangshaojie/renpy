@@ -12,14 +12,16 @@ class sharepay():
     #线下地址
     url='http://172.20.94.96:8800/'
     preorderbody={
-      "ucid":"885743499612262400",
+      "ucid":"1032588592796405760",
       "source":"50001",
       "bizNo":"1535103028935",
       "amount":2,
       "notifyUrl":"https://www.baidu.com/",
       "shareInfoBiz":"""[{"shareService":"renrenche","shareAmount":"1"},{"shareService":"zifang_dg","shareAmount":"1"}]""",
       "operatorId":8706,
-      "operatorName":"8706"
+      "operatorName":"8706",
+      "certNo": "142427199307225710"
+
     }
     header={
         "Content-Type": "application/json"

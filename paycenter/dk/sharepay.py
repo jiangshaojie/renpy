@@ -10,21 +10,22 @@ class sharepay():
     url='http://172.20.94.97:8088/'
     preorderbody={
       "ucid":"1032588592796405760",
-      "source":"50002",
+      "source":"50001",
       "bizNo":"1535103028935",
-      "amount":3,
+      "amount":30000,
       "notifyUrl":"https://www.baidu.com/",
-      "shareInfoBiz":"""[{"shareService":"renrenche","shareAmount":"1"},{"shareService":"zifang_dg","shareAmount":"2"}]""",
+      "shareInfoBiz":"""[{"shareService":"renrenche","shareAmount":"10000"},{"shareService":"zifang_dg","shareAmount":"20000"}]""",
       "settleFeeItem":"",
       "operatorId":8706,
-      "operatorName":"8706"
+      "operatorName":"8706",
+      "certNo": "130682199010296931"
     }
     header={
         "Content-Type": "application/json"
     }
     placeorderbody={
             "orderNo": "20180824173105360000000424651248",
-            "source": "50002"
+            "source": "50001"
         }
     aes=AESECB(key=key)
     def preorder(self):
