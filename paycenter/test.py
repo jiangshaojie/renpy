@@ -29,6 +29,3 @@ logger=logging.getLogger()
 
 logger.addHandler(handler)
 
-
-logger.info('这是第一个info log')
-print("dsf")
