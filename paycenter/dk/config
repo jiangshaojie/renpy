@@ -1,0 +1,4 @@
+[rrcp-bgtwfront-api]
+url=http://172.20.94.97:8088/
+[paycenter_innergateway]
+url = http://172.20.94.96:8800/

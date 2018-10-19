@@ -28,16 +28,16 @@ def create(host, rrc_user_id):
             "user_name":"柳栋杰",
             "remark":"测试",
             "fee":{
-                "c2b_deposit":10
+                "c2b_deposit":0.1
             },
-            "account":{
-                "number":"7234567892345678",
-                "bank":"招商银行",
-                "province":"北京",
-                "city":"北京",
-                "phone":"18810936553",
-                "sub_branch":"望京支行",
-                "holder":"测试人员"
+            "account": {
+                "number": "6212260200134579313",
+                "bank": "中国工商银行",
+                "province": "北京",
+                "city": "北京",
+                "phone": "13810148279",
+                "sub_branch": "昌平龙泽支行",
+                "holder": "于文胜"
             }
         }
         header = {
@@ -159,10 +159,10 @@ def query(approvalids, host):
 if __name__ == '__main__':
         host = "10.81.35.44"
         rrc_user_id = "db8b543ab401000"
-        # create(host, rrc_user_id)
+        create(host, rrc_user_id)
         # approvalid='7805'
         # orderid='1537843509913'
         # # edit(7801,1537517673379,host,rrc_user_id)
-        confirm(8370, 1538119734720, host, rrc_user_id)
+        # confirm(8527, 1539052918321, host, rrc_user_id)
         # # close(7801,host)
         # # query("7801,7795,7798",host)
