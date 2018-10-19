@@ -11,9 +11,9 @@ class dk_biz(Base):
     __tablename__ = 'dk_biz'
 
     # 表的结构:
-    id = Column(String(20))
-    ucid = Column(String(20))
-    order_no=Column(String(20))
+    id = Column('id',Integer,primary_key=True)
+    ucid = Column('ucid',String(20))
+    order_no=Column('order_no',String(20))
 
 # 初始化数据库连接:
 engine = create_engine('mysql+mysqlconnector://work:RqQb5YFfOH5ojZ16@rdsqv39909q66i6efi0k.mysql.rds.aliyuncs.com:3306/paycenter')

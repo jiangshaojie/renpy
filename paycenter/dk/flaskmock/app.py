@@ -1,19 +1,25 @@
 from flask import Flask
 from flask import request
+# from flask import Request
 app = Flask(__name__)
-
+import json
 
 @app.route('/test',methods=['post','get'])
 def hello_world():
-    a=request.headers
-    # print(request.url)
-    print(request.args)
-    print(request.data)
-    print(request.form)
 
-    # print(type(a))
-    for items in a:
-        print(items)
+    print("*******开始********")
+    # if request.headers['Content-Type']=='application/json':
+    #     print("request :",json.loads(request.data))
+    # else:
+    #     pass
+    print(request.url)
+    print("args   :",request.args)
+    print("请求方法",request.method)
+    print(request.form)
+    print(request.data)
+
+
+    print("********结束*******")
     return 'Hello World!'
 
 
